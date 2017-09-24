@@ -40,7 +40,7 @@ body {
 }
 
 .line1 {
-  max-width: 600px;
+  max-width: 630px;
   height: 10px;
   background-color: gray;
   margin: 0 0 0 0;
@@ -99,6 +99,13 @@ color: #ccff33;
   margin: 0 0 25px 0;
 }
 
+#skills {
+  color: #3399ff;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  margin: 0 0 25px 0;
+}
+
 .thumbnail-1 {
   width: 95%;
   height: 50%;
@@ -145,6 +152,13 @@ color: #ccff33;
   margin: 0 0 0 0;
 }
 
+.line6 {
+  max-width: 600px;
+  height: 10px;
+  background-color: gray;
+  margin: 0 0 0 0;
+}
+
 .icon {
   display: inline;
   padding: 0px 30px 0px 30px;
@@ -153,6 +167,13 @@ color: #ccff33;
   height: 0px;
 }
 
+.icon2 {
+  display: inline;
+  padding: 0px 25px 0px 25px;
+  botton: 0;
+  margin: 30px;
+  height: 0px;
+}
 
 @media (max-width: 600px) {
       h1 {
