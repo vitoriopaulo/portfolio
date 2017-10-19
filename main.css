@@ -127,6 +127,10 @@ color: #ccff33;
   font-family: 'Monoton', cursive;
   margin: 0 0 25px 0;
 }
+.about-scroll {
+overflow-y: scroll;
+height: 300px;
+}
 
 .paragraph-contact {
   max-width: 600px;
