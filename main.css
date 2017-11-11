@@ -274,7 +274,7 @@ height: 300px;
   text-align: justify;
   height: 50%;
   width: 95%;
-  margin: 0.5em 0.5em 17.5em 0.5em;
+  margin: 0.5em 0.5em 20em 0.5em;
 }
 
 .e-mail {
@@ -290,7 +290,7 @@ height: 300px;
 
   .icon {
   display: inline;
-  padding: 0px 12px 0px 12px;
+  padding: 10px 25px 10px 25px;
   botton: 0;
   margin: 20px;
   height: 0px;
