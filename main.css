@@ -61,6 +61,7 @@ color: #ccff33;
   text-align: justify;
   height: 30px;
   font-family: Montserrat, Avenir, Verdana, Arial;
+  margin-right: 2%;
 }
 
 .paragraph-about{
@@ -82,14 +83,14 @@ color: #ccff33;
   border-radius: 50%;
   image-position: center;
   image-size: cover;
-  width: 300px;
+  width: 250px;
 }
 
 .line2 {
   max-width: 600px;
   height: 10px;
   background-color: gray;
-  margin: 120px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 #portfolio {
@@ -107,11 +108,19 @@ color: #ccff33;
 }
 
 .thumbnail-1 {
-  width: 95%;
+  width: 90%;
   height: 50%;
   background-size: cover;
-  text-align: center;
+  text-align: justify;
   margin: 0em 1em 0em 1em;
+}
+
+.site-paragraph {
+  color: #ccff33;
+  text-align: justify;
+  height: 50%;
+  width: 95%;
+  margin: 2em 1em 2em 1em;
 }
 
 #line3 {
@@ -179,11 +188,13 @@ height: 300px;
 
 .icon2 {
   display: inline;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 20px 0px 20px;
   botton: 0;
   margin: 30px;
   height: 0px;
 }
+
+/* Designing for mobile devices */
 
 @media (max-width: 600px) {
       h1 {
@@ -196,13 +207,28 @@ height: 300px;
       }
 
   .nav-menu {
-  display: inline;
-  padding: 10px 0 10px 0;
+  display: block;
+  padding: 5px 0 5px 0;
   botton: 0;
   margin: 20px;
   height: 30px;
 }
 
+.line1 {
+  max-width: 600px;
+  height: 10px;
+  background-color: gray;
+  margin: 90px 0 0 0;
+  bottom: 0;
+}
+
+#about {
+  color: #3399ff;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  margin: 0 25px 0 25px;
+  padding-top: 15px;
+}
 
   #portfolio {
   color: #3399ff;
@@ -232,15 +258,23 @@ height: 300px;
   border-radius: 50%;
   image-position: center;
   image-size: cover;
-  width: 300px;
+  width: 250px;
 }
 
-  .thumbnail-1 {
-  max-width: 95%;
-  max-height: 50%;
+.thumbnail-1 {
+  width: 90%;
+  height: 50%;
   background-size: cover;
-    position: centered;
-    padding: 25px;
+  text-align: justify;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.site-paragraph {
+  color: #ccff33;
+  text-align: justify;
+  height: 50%;
+  width: 95%;
+  margin: 0.5em 0.5em 17.5em 0.5em;
 }
 
 .e-mail {
@@ -258,14 +292,23 @@ height: 300px;
   display: inline;
   padding: 0px 12px 0px 12px;
   botton: 0;
-  margin: 25px;
+  margin: 20px;
   height: 0px;
+}
+
+.icon2 {
+  display: block;
+  padding: 0px 50px 0px 50px;
+  botton: 0;
+  margin: 50px;
+  height: 0px;
+  text-align: center;
 }
 
   .line2 {
   max-width: 600px;
   height: 10px;
   background-color: gray;
-  margin: 15em 0 0 0;
+  margin: 2em 0 0 0;
   }
       }
