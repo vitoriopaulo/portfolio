@@ -76,7 +76,7 @@ color: #ccff33;
 }
 
 .vitorio-about {
-  margin: 10px 150px 10px 150px;
+  margin: 10px 35px 10px 35px;
   border-color: gray;
   border-width: 10px;
   border-style: solid;
@@ -84,6 +84,10 @@ color: #ccff33;
   image-position: center;
   image-size: cover;
   width: 250px;
+}
+
+::-webkit-scrollbar {
+display: none;
 }
 
 .line2 {
@@ -274,7 +278,7 @@ height: 300px;
   text-align: justify;
   height: 50%;
   width: 95%;
-  margin: 0.5em 0.5em 20em 0.5em;
+  margin: 0.5em 0.5em 25em 0.5em;
 }
 
 .e-mail {
