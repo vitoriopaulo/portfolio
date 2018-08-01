@@ -15,9 +15,9 @@ header {
 }
 
 ul {
-  pading: 10px;
+  pading: 40px;
   background: rgba(0,0,0,0.5);
-  margin: 140px 0 0 0;
+  margin: 140px 0px 0px 0px;
 }
 
 .nav-menu {
@@ -47,6 +47,14 @@ body {
 }
 
 h1 {
+  text-align: center;
+  color: #3399ff;
+  margin: 0px;
+  background: rgba(0,0,0,1);
+  font-family: 'Monoton', cursive;
+}
+
+h3 {
   text-align: center;
   color: #3399ff;
   margin: 0px;
@@ -301,6 +309,8 @@ height: 300px;
   height: 0px;
 }
 
+
+
 /* Designing for mobile devices */
 
 @media (max-width: 600px) {
@@ -310,18 +320,27 @@ height: 300px;
         padding: 5px;
       }
 
-      li {
-        text-align: justify;
-        padding: 5px;
-        display: inline;
+      h3 {
+        font-size: 24px;
+        padding: 7.5px;
+      }
+
+    ul {
+        text-align: center;
+        display: block;
+        pading: 12px;
+        background: rgba(0,0,0,0.5);
+        margin: 140px 0px 0px 0px;
+        max-width: 600px;
+        height: 90px;
       }
 
   .nav-menu {
-  text-align: justify;
-  display: list;
-  padding: 1.5px 0 1.5px 0;
+  text-align: center;
+  display: block;
+  padding: 6px;
   botton: 0;
-  margin: 0px;
+  margin: 6px;
   height: 0px;
 }
 
@@ -374,7 +393,7 @@ height: 300px;
 
 #thumbnail-1 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -383,7 +402,7 @@ height: 300px;
 
 #thumbnail-2 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -392,7 +411,7 @@ height: 300px;
 
 #thumbnail-3 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -401,7 +420,7 @@ height: 300px;
 
 #thumbnail-4 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -410,7 +429,7 @@ height: 300px;
 
 #thumbnail-5 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -419,7 +438,7 @@ height: 300px;
 
 #thumbnail-6 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -428,7 +447,7 @@ height: 300px;
 
 #thumbnail-7 {
   width: 90%;
-  height: 50%;
+  height: 30%;
   background-size: cover;
   image-position: center;
 /*  text-align: center; */
@@ -438,7 +457,7 @@ height: 300px;
 #site-paragraph1 {
   color: #ccff33;
   text-align: justify;
-  height: 100%;
+  height: 87.5%;
   width: 90%;
   margin: auto;
 }
@@ -446,7 +465,7 @@ height: 300px;
 #site-paragraph2 {
   color: #ccff33;
   text-align: justify;
-  height: 62.5%;
+  height: 92.5%;
   width: 90%;
   margin: auto;
 }
@@ -454,7 +473,7 @@ height: 300px;
 #site-paragraph3 {
   color: #ccff33;
   text-align: justify;
-  height: 42.5%;
+  height: 60%;
   width: 90%;
   margin: auto;
 }
@@ -462,7 +481,7 @@ height: 300px;
 #site-paragraph4 {
   color: #ccff33;
   text-align: justify;
-  height: 60%;
+  height: 97.5%;
   width: 90%;
   margin: auto;
 }
@@ -470,7 +489,7 @@ height: 300px;
 #site-paragraph5 {
   color: #ccff33;
   text-align: justify;
-  height: 50%;
+  height: 77.5%;
   width: 90%;
   margin: auto;
 }
@@ -478,7 +497,7 @@ height: 300px;
 #site-paragraph6 {
   color: #ccff33;
   text-align: justify;
-  height: 40%;
+  height: 60%;
   width: 90%;
   margin: auto;
 }
@@ -486,9 +505,15 @@ height: 300px;
 #site-paragraph7 {
   color: #ccff33;
   text-align: justify;
-  height: 25%;
+  height: 35%;
   width: 90%;
   margin: auto;
+}
+
+.paragraph-contact {
+  max-width: 600px;
+  height: 60px;
+  margin: 10px 0 0 0;
 }
 
 .e-mail {
@@ -503,20 +528,21 @@ height: 300px;
 }
 
   .icon {
-  display: inline;
-  padding: 10px 25px 10px 25px;
+  display: inline-table;
+  padding: 3px 6px 3px 6px;
   botton: 0;
-  margin: 20px;
+  margin: 12px;
   height: 0px;
+  image-size: 50%;
 }
 
 .icon2 {
-  display: block;
-  padding: 0px 50px 0px 50px;
+  display: inline-table;
+  padding: 0px 2px 0px 2px;
   botton: 0;
-  margin: 50px;
+  margin: 6px;
   height: 0px;
-  text-align: center;
+  image-size: 50%;
 }
 
   .line2 {
@@ -525,4 +551,12 @@ height: 300px;
   background-color: gray;
   margin: 2em 0 0 0;
   }
+
+  .line6 {
+  max-width: 600px;
+  height: 10px;
+  background-color: gray;
+  margin: .25em 0 0 0;
+  }
+
       }
