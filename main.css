@@ -60,7 +60,7 @@ color: #ccff33;
   line-height: 28px;
   text-align: justify;
   height: 30px;
-  font-family: Montserrat, Avenir, Verdana, Arial;
+  font-family: 'Raleway', sans-serif;
   margin-right: 2%;
 }
 
@@ -108,23 +108,126 @@ display: none;
   color: #3399ff;
   text-align: center;
   font-family: 'Monoton', cursive;
-  margin: 0 0 25px 0;
+  margin: 25px 0 25px 0;
 }
 
-.thumbnail-1 {
+#thumbnail-1 {
   width: 90%;
   height: 50%;
   background-size: cover;
-  text-align: justify;
-  margin: 0em 1em 0em 1em;
+  image-position: center;
+  /* text-align: center; */
+  margin: auto;
 }
 
-.site-paragraph {
+#thumbnail-2 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-3 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-4 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-5 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+  /*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-6 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-7 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#site-paragraph1 {
+  color: #ccff33;
+  text-align: justify;
+  height: 57.5%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph2 {
+  color: #ccff33;
+  text-align: justify;
+  height: 62.5%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph3 {
+  color: #ccff33;
+  text-align: justify;
+  height: 42.5%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph4 {
+  color: #ccff33;
+  text-align: justify;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph5 {
   color: #ccff33;
   text-align: justify;
   height: 50%;
-  width: 95%;
-  margin: 2em 1em 2em 1em;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph6 {
+  color: #ccff33;
+  text-align: justify;
+  height: 40%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph7 {
+  color: #ccff33;
+  text-align: justify;
+  height: 25%;
+  width: 90%;
+  margin: auto;
 }
 
 #line3 {
@@ -201,28 +304,32 @@ height: 300px;
 /* Designing for mobile devices */
 
 @media (max-width: 600px) {
+
       h1 {
         font-size: 36px;
         padding: 5px;
       }
+
       li {
+        text-align: justify;
         padding: 5px;
         display: inline;
       }
 
   .nav-menu {
-  display: block;
-  padding: 5px 0 5px 0;
+  text-align: justify;
+  display: list;
+  padding: 1.5px 0 1.5px 0;
   botton: 0;
-  margin: 20px;
-  height: 30px;
+  margin: 0px;
+  height: 0px;
 }
 
 .line1 {
   max-width: 600px;
   height: 10px;
   background-color: gray;
-  margin: 90px 0 0 0;
+  margin: 0 0 0 0;
   bottom: 0;
 }
 
@@ -242,7 +349,7 @@ height: 300px;
 }
 
   p {
-    padding: 10px;
+    padding: 2px;
   }
 
   .paragraph-about{
@@ -265,20 +372,123 @@ height: 300px;
   width: 250px;
 }
 
-.thumbnail-1 {
+#thumbnail-1 {
   width: 90%;
   height: 50%;
   background-size: cover;
-  text-align: justify;
-  margin: 0.5em 0.5em 0.5em 0.5em;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
 }
 
-.site-paragraph {
+#thumbnail-2 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-3 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-4 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-5 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-6 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#thumbnail-7 {
+  width: 90%;
+  height: 50%;
+  background-size: cover;
+  image-position: center;
+/*  text-align: center; */
+  margin: auto;
+}
+
+#site-paragraph1 {
+  color: #ccff33;
+  text-align: justify;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph2 {
+  color: #ccff33;
+  text-align: justify;
+  height: 62.5%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph3 {
+  color: #ccff33;
+  text-align: justify;
+  height: 42.5%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph4 {
+  color: #ccff33;
+  text-align: justify;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph5 {
   color: #ccff33;
   text-align: justify;
   height: 50%;
-  width: 95%;
-  margin: 0.5em 0.5em 25em 0.5em;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph6 {
+  color: #ccff33;
+  text-align: justify;
+  height: 40%;
+  width: 90%;
+  margin: auto;
+}
+
+#site-paragraph7 {
+  color: #ccff33;
+  text-align: justify;
+  height: 25%;
+  width: 90%;
+  margin: auto;
 }
 
 .e-mail {
