@@ -24,6 +24,38 @@ $(() => {
             return false;
         });
 
+        /* $(".down").click(function () {
+                $("#mover").animate({marginTop: '-=20px'}, 0);
+            });
+
+            $(".up").click(function () {
+                $("#mover").animate({ marginTop: '+=20px' }, 0);
+            }); */
+
+            var amount = '';
+
+            function scroll() {
+              $('.about').animate({
+                scrollTop: amount
+              }, 100, 'linear', function() {
+                if (amount != '') {
+                  scroll();
+                }
+              });
+            }
+            $('#up').hover(function() {
+              amount = '+=10';
+              scroll();
+            }, function() {
+              amount = '';
+            });
+            $('#down').hover(function() {
+              amount = '-=10';
+              scroll();
+            }, function() {
+              amount = '';
+            });
+
 })
 
 

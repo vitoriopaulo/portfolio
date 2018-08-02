@@ -252,8 +252,18 @@ display: none;
   margin: 0 0 25px 0;
 }
 
-.about-scroll {
-overflow-y: scroll;
+#up {
+  image-size: 36px;
+  color: #ccff33;
+}
+
+#down {
+  image-size: 36px;
+  color: #ccff33;
+}
+
+.about {
+overflow-y: scroll; /* scroll */
 height: 300px;
 }
 
