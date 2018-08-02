@@ -24,13 +24,7 @@ $(() => {
             return false;
         });
 
-        /* $(".down").click(function () {
-                $("#mover").animate({marginTop: '-=20px'}, 0);
-            });
-
-            $(".up").click(function () {
-                $("#mover").animate({ marginTop: '+=20px' }, 0);
-            }); */
+  /* Scripts for the Interactive Scrolls of About & Portfolio */
 
             var amount = '';
 
@@ -55,6 +49,32 @@ $(() => {
             }, function() {
               amount = '';
             });
+
+
+
+            function scroll() {
+              $('.portfolio-scroll').animate({
+                scrollTop: amount
+              }, 100, 'linear', function() {
+                if (amount != '') {
+                  scroll();
+                }
+              });
+            }
+            $('#going-up').hover(function() {
+              amount = '+=10';
+              scroll();
+            }, function() {
+              amount = '';
+            });
+            $('#going-down').hover(function() {
+              amount = '-=10';
+              scroll();
+            }, function() {
+              amount = '';
+            });
+
+
 
 })
 

@@ -262,6 +262,17 @@ display: none;
   color: #ccff33;
 }
 
+#going-up {
+  image-size: 36px;
+  color: #ccff33;
+}
+
+#going-down {
+  image-size: 36px;
+  color: #ccff33;
+}
+
+
 .about {
 overflow-y: scroll; /* scroll */
 height: 300px;
