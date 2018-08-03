@@ -28,48 +28,48 @@ $(() => {
 
             var amount = '';
 
-            function scroll() {
+            function scrollAbout() {
               $('.about').animate({
                 scrollTop: amount
               }, 100, 'linear', function() {
                 if (amount != '') {
-                  scroll();
+                  scrollAbout();
                 }
               });
             }
             $('#up').hover(function() {
               amount = '+=10';
-              scroll();
+              scrollAbout();
             }, function() {
               amount = '';
             });
             $('#down').hover(function() {
               amount = '-=10';
-              scroll();
+              scrollAbout();
             }, function() {
               amount = '';
             });
 
 
 
-            function scroll() {
+            function scrollPortfolio() {
               $('.portfolio-scroll').animate({
                 scrollTop: amount
               }, 100, 'linear', function() {
                 if (amount != '') {
-                  scroll();
+                  scrollPortfolio();
                 }
               });
             }
             $('#going-up').hover(function() {
               amount = '+=10';
-              scroll();
+              scrollPortfolio();
             }, function() {
               amount = '';
             });
             $('#going-down').hover(function() {
               amount = '-=10';
-              scroll();
+              scrollPortfolio();
             }, function() {
               amount = '';
             });
