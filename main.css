@@ -409,7 +409,7 @@ height: 300px;
 #about {
   color: #FA00FA;
   text-align: center;
-  font-family: 'Monoton', cursive;
+  font-family: 'Raleway', sans-serif; /* 'Monoton', cursive; */
   margin: 0 25px 0 25px;
   padding-top: 15px;
 }
@@ -417,7 +417,7 @@ height: 300px;
   #portfolio {
   color: #FA00FA;
   text-align: center;
-  font-family: 'Monoton', cursive;
+  font-family: 'Raleway', sans-serif; /* 'Monoton', cursive; */
   margin: 0 25px 0 25px;
 }
 
