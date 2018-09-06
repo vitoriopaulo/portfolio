@@ -8,16 +8,17 @@ h1 {
 
 header {
   text-align: center;
-  background: url('http://www.vitoriopaulo.com/uploads/2/3/3/1/23317088/2315732_orig.jpeg');
+  background: url('./header-image/lospies.jpg');
   background-size: cover;
   height: 350px;
+  width: 100%;
   color: #ccff33;
 }
 
 ul {
   pading: 40px;
   background: rgba(0,0,0,0.5);
-  margin: 140px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .nav-menu {
@@ -369,6 +370,16 @@ height: 300px;
 
 @media (max-width: 600px) {
 
+  header {
+    text-align: center;
+    background: url('./header-image/lospies.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    color: #ccff33;
+  }
+
+
       h1 {
         font-size: 36px;
         padding: 5px;
@@ -381,10 +392,10 @@ height: 300px;
 
     ul {
         text-align: center;
-        display: block;
+        display: line;
         pading: 12px;
         background: rgba(0,0,0,0.5);
-        margin: 140px 0px 0px 0px;
+        margin: 75px 0px 0px 0px;
         max-width: 600px;
         height: 90px;
       }
