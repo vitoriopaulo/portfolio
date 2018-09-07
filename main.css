@@ -408,10 +408,10 @@ input, textarea {
   border: 1px solid #999;
 }
 
-input:focus, textarea:focus {
+/* input:focus, textarea:focus {
   /* To give a little highlight on active elements */
-  border-color: #000;
-}
+  /* border-color: #000;
+} */
 
 textarea {
   /* To properly align multiline text fields with their labels */
@@ -437,6 +437,19 @@ button {
   height: 50px;
   border-radius: 25px;
   background-color: #ccff33;
+  text-align: center;
+  font-family: 'Raleway', sans-serif; /* 'Monoton', cursive; */
+  color: rgb(75,75,75);
+}
+
+button:hover {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 1.5em;
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #7DC832;
   text-align: center;
   font-family: 'Raleway', sans-serif; /* 'Monoton', cursive; */
   color: rgb(75,75,75);
