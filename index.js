@@ -74,10 +74,43 @@ $(() => {
               amount = '';
             });
 
+// Modal pop-up on click button event //
+
+  var button = $('#btn')
+  var popup_window = $('.popup')
+  var close_button = popup_window.find('.close')
+
+
+  button.on('click', function(){
+    popup_window.css({
+      'transform':'translateY(0)',
+      'z-index':'999'
+    });
+
+    $('body').addClass('overlay');
+
+    popup_window.find('h1').animate({
+      left:'0'
+    },1000);
+
+    $(this).css({
+      'z-index':'-1'
+    });
+  })
+
+    close_button.on('click', function(){
+      $(this).parent().css({
+      'transform':'translateY(-300%)'
+     });
+
+      $('body').removeClass('overlay');
+      $(this).parent().siblings('.btn').css({
+        'z-index':'1'
+      });
+    });
 
 
 })
-
 
 
 // Imported from my codepen.io Account //
