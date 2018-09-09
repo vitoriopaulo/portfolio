@@ -89,14 +89,14 @@ $(() => {
 
     $('body').addClass('overlay');
 
-    popup_window.find('h1').animate({
+    popup_window.find('h4').animate({
       left:'0'
     },1000);
 
     $(this).css({
       'z-index':'-1'
     });
-  })
+
 
     close_button.on('click', function(){
       $(this).parent().css({
@@ -108,6 +108,7 @@ $(() => {
         'z-index':'1'
       });
     });
+  });
 
 
 })
